@@ -1,0 +1,36 @@
+.new-checkpoint-page {
+    display: flex;
+}
+.checkpoint-container {
+    display: flex;
+    flex-direction: column;
+    padding-top: 3em;
+    align-items: center;
+    width: 100%
+}
+.checkpoint-form {
+    width: 95%;
+    /* padding: 2em; */
+    max-width: 950px;
+}
+.checkpoint-main-form {
+    padding: 2em;
+}
+.checkpoint-form-btns {
+    padding: 2em;
+    padding-bottom: 0.5em;
+    display: flex;
+    justify-content: space-between;
+}
+.checkpoint-form-btns .btn {
+    width: 30%;
+    color: white;
+}
+.reminder-row {
+    display: flex;
+    justify-content: space-between;
+    max-width: 600px;
+}
+.hidden {
+    display: none;
+}
